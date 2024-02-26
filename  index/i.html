@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Tablas de Multiplicar</title>
+    <style>
+        .resultado {
+            border: 1px solid black; /* Estilo del borde */
+            padding: 5px; /* A�ade espacio alrededor del borde */
+            display: inline-block; /* Para que el borde se ajuste al contenido */
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculadora de Tablas de Multiplicar</h2>
+    <form action="action.php" method="get" >
+        <label for="inicio">Ingrese la multiplicacion inicial</label>
+        <input type="text" min="1" name="inicio" required>
+        <label for="inicio">Ingrese la multiplicacion final</label>
+        <input type="text" min="1" name="final" required>
+        <label for="numero">Ingrese un numero:</label>
+        <input type="text" min="1" name="numero" required>
+        <input type="submit" value="Generar tabla">
+    </form>
+
+</body>
+</html>
